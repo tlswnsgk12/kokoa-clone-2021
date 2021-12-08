@@ -1,0 +1,9 @@
+.nav {
+  background-color: #f9f9fa;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
