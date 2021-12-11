@@ -26,4 +26,61 @@
   padding: 14px;
   font-size: 18px;
   border-radius: 29px;
+  margin-bottom: 30px;
+}
+
+.message-row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.message-row img {
+  width: 65px;
+  height: 65px;
+  border-radius: 25px;
+  margin-right: 12px;
+}
+
+.message__author {
+  opacity: 0.8;
+  font-size: 16px;
+  margin-bottom: 15px;
+  display: block;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.message__bubble {
+  padding: 14px;
+  background-color: white;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  font-size: 24px;
+  margin-right: 9px;
+}
+
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message__time {
+  opacity: 0.8;
+}
+
+.message-row__own {
+  justify-content: flex-end;
+}
+
+.message-row__own .message__bubble {
+  background-color: var(--yellow);
+  border-top-right-radius: 0px;
+  border-top-left-radius: 15px;
+  margin-right: 0px;
+  margin-left: 9px;
+}
+
+.message-row__own .message__info {
+  flex-direction: row-reverse;
 }
