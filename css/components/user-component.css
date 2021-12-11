@@ -71,3 +71,15 @@
   margin-left: 5px;
   color: rgba(0, 0, 0, 0.3);
 }
+.user-component__warning {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  position: relative;
+}
+
+.user-component__warning i {
+  color: red;
+  position: absolute;
+  right: -25px;
+}
