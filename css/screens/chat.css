@@ -150,7 +150,7 @@
   padding: 7px 30px;
   box-sizing: border-box;
   align-items: center;
-  transition: all 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .reply input {
@@ -219,7 +219,7 @@
   opacity: 0;
 }
 
-.reply:focus-within input {
+.reply input:focus {
   width: 95vw;
   transform: translateX(-12.5%) translateY(-80px);
 }
